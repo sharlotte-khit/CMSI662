@@ -329,8 +329,8 @@ HW5/
 
 # Assets / Credits
 
-Background image pattern from Vecteezy:
-https://www.vecteezy.com/free-vector/cat-seamless-pattern
+Background image pattern by Kamilia from Vecteezy:
+https://www.vecteezy.com/vector-art/46819082-seamless-pattern-with-cute-cat-paw
 
 Font from Google Fonts:
 https://fonts.google.com/specimen/Cause?categoryFilters=Feeling:%2FExpressive%2FCute&preview.script=Latn
