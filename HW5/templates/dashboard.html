@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KittyVault Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+  <p><a href="/logout">Logout</a></p>
+
+  <h1>🐈 Welcome to KittyVault 🐈</h1>
+
+  <p>Logged in as {{ email }}</p>
+
+  <p>Your Catteries:</p>
+
+  {% for account in accounts %}
+    <div class="card">
+      <p>
+        <a href="/details?account={{ account[0] }}">
+          Cattery {{ account[0] }}
+        </a>
+      </p>
+    </div>
+  {% endfor %}
+
+  <div class="card">
+    <p><a href="/transfer">🐾 Rehome Cats 🐾</a></p>
+  </div>
+
+</div>
+
+</body>
+</html>

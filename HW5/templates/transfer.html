@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rehome Cats</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+  <h1>🐾 Rehome Cats 🐾</h1>
+
+  {% if error %}
+    <p class="error">{{ error }}</p>
+  {% endif %}
+
+  {% if success %}
+    <p class="success">{{ success }}</p>
+  {% endif %}
+
+  <form method="POST" action="/transfer">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+
+    <p>From Cattery</p>
+    <input name="from" value="{{ source or '' }}" />
+
+    <p>To Cattery</p>
+    <input name="to" />
+
+    <p>Number of Cats</p>
+    <input name="amount" />
+
+    <br><br>
+
+    <input type="submit" value="Rehome Cats" />
+  </form>
+
+  <p><a href="/dashboard">Back to Dashboard</a></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cattery Details</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+  <p>Hi, {{ user }}</p>
+
+  <h1>Cattery {{ account_number }}</h1>
+
+  <div class="balance-box">
+    🐱 {{ balance }} Cats
+  </div>
+
+  <p><a href="/dashboard">Back to Dashboard</a></p>
+</div>
+
+</body>
+</html>
