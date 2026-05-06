@@ -330,10 +330,10 @@ HW5/
 # Assets / Credits
 
 Background image pattern from Vecteezy:
-
-Cat Seamless Pattern Vectors by Vecteezy  
 https://www.vecteezy.com/free-vector/cat-seamless-pattern
 
+Font from Google Fonts:
+https://fonts.google.com/specimen/Cause?categoryFilters=Feeling:%2FExpressive%2FCute&preview.script=Latn
 ---
 
 # Disclaimer
